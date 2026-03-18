@@ -8,25 +8,37 @@
                 </div>
             </div>
             <div class="row">
-                {% for member in site.people %}
+                <!-- Canal 1: Ligue 190 -->
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.png" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul>
+                        <img src="assets/img/team/1.png" class="img-responsive img-circle" alt="Ícone para o número de emergência 190">
+                        <h4>Ligue 190</h4>
+                        <p class="text-muted">Polícia Militar - Emergência</p>
+                        <p>Use este número para emergências, <strong>quando a violência está acontecendo</strong>. Uma viatura será enviada para interromper a agressão.</p>
                     </div>
                 </div>
-                {% endfor %}
+                <!-- Canal 2: Ligue 180 -->
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="assets/img/team/2.png" class="img-responsive img-circle" alt="Ícone para a Central de Atendimento à Mulher 180">
+                    <h4>Ligue 180</h4>
+                    <p class="text-muted">Central de Atendimento à Mulher</p>
+                    <p>Ligue para <strong>denunciar, receber orientação</strong> sobre seus direitos e ser informada sobre serviços de proteção. Funciona 24h.</p>
+                </div>
+            </div>
+
+            <!-- Canal 3: Procure a DEAM -->
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="assets/img/team/3.png" class="img-responsive img-circle" alt="Ícone para a Delegacia da Mulher (DEAM)">
+                    <h4>Procure a DEAM</h4>
+                    <p class="text-muted">Delegacia da Mulher</p>
+                    <p>Vá à delegacia para <strong>registrar um Boletim de Ocorrência e solicitar Medidas Protetivas</strong> de Urgência para sua segurança.</p>
+                </div>
+            </div>
+                        
+                
+                
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
